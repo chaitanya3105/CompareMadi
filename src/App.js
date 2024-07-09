@@ -161,7 +161,7 @@ const SpendInput = () => {
     utilities: 0,
     walletLoads: 0,
   });
-  //const [selectedCard, setSelectedCard] = useState(cards[0]);
+  const [selectedCard, setSelectedCard] = useState(cards[0]);
   const [totalCashback, setTotalCashback] = useState(0);
 
   useEffect(() => {
